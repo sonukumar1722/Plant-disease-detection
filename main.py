@@ -73,15 +73,16 @@ elif app_mode == "Disease Recognition":
             if st.button("Show Uploaded Image"):
                 with col2:
                     st.image(test_image, use_column_width=True)
-        st.text("OR")
+
 
     # Toggle button for camera input
-    if st.button("Camera"):
-        st.session_state.camera_button_clicked = not st.session_state.camera_button_clicked
+    with col2:
+        if st.button("Camera"):
+            st.session_state.camera_button_clicked = not st.session_state.camera_button_clicked
 
     # Display the camera input if the toggle state is True
     if st.session_state.camera_button_clicked:
-        with col1:
+        with col2:
             camera = back_camera_input("Capture Image")
             if camera is not None:
                 with col2:
