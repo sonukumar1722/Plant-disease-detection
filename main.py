@@ -76,7 +76,7 @@ elif app_mode == "Disease Recognition":
         st.text("OR")
 
     # Toggle button for camera input
-    if st.button("Toggle Camera"):
+    if st.button("Camera"):
         st.session_state.camera_button_clicked = not st.session_state.camera_button_clicked
 
     # Display the camera input if the toggle state is True
@@ -89,23 +89,11 @@ elif app_mode == "Disease Recognition":
                         with col2:
                             st.image(camera, use_column_width=True)
 
-        # # st.session_state.camera_button_clicked = not st.session_state.camera_button_clicked
-        # if st.button("Back Camera"):
-        #     if st.session_state.camera_button_clicked:
-        #         with col1:
-        #             camera = back_camera_input("Capture Image")
-        #             if camera is not None:
-        #                 with col2:
-        #                     if st.button("Show Image"):
-        #                         with col2:
-        #                             st.image(camera, use_column_width=True)
-            
-
 
 
     # Predict button
     try:
-        with col2:
+        with col1:
             if st.button("Predict"):
                 st.write("Our Prediction")
                 with st.spinner("Predicting..."):
