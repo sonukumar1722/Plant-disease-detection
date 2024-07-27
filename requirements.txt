@@ -1,0 +1,7 @@
+streamlit 
+streamlit_back_camera_input                            
+streamlit_webrtc
+opencv-python                             
+mediapipe
+jupyterlab
+tensorflow
