@@ -1,4 +1,3 @@
-
 # 🌱 Plant Disease Recognition & Weather Forecast System
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/sonukumar1722/plant-disease-recognition)
