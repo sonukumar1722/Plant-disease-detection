@@ -101,19 +101,6 @@ An interactive web application that leverages **deep learning** and **real-time 
    streamlit run app.py
    ```
 
----
-
-## 📷 Screenshots
-
-*(Add screenshots here: Home Page, Disease Recognition, Weather Forecast)*
-
----
-
-## 🎥 Demo
-
-*(Insert GIF demo here – you can record it using Loom or ScreenToGif and upload it to GitHub)*
-
----
 
 ## 📈 Future Improvements
 
@@ -123,28 +110,4 @@ An interactive web application that leverages **deep learning** and **real-time 
 
 ---
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`feature-xyz`)
-3. Commit and push your changes
-4. Open a Pull Request
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
-
-If you want, I can now **create the full GitHub repository folder structure** for this project with:
-
-* `README.md` (this file)
-* `requirements.txt`
-* `.gitignore`
-* `app.py` placeholder
-* Model placeholder
-
-So you can just upload to GitHub and run it.
-Do you want me to prepare that next?
