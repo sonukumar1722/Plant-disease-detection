@@ -1,5 +1,4 @@
-# 🌱 Plant Disease Recognition & Weather Forecast System
-![launch Application](https://plant-disease-by-max.streamlit.app/)
+# 🌱 Plant Disease Recognition & Weather Forecast System, [launch Application](https://plant-disease-by-max.streamlit.app/)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/sonukumar1722/plant-disease-recognition)
 ![GitHub repo size](https://img.shields.io/github/repo-size/sonukumar1722/plant-disease-recognition)
