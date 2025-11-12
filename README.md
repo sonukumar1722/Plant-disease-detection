@@ -1,4 +1,4 @@
-# 🌱 Plant Disease Recognition & Weather Forecast System, [launch Application](https://plant-disease-by-max.streamlit.app/)
+# 🌱 Plant Disease Recognition & Weather Forecast System, 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/sonukumar1722/plant-disease-recognition)
 ![GitHub repo size](https://img.shields.io/github/repo-size/sonukumar1722/plant-disease-recognition)
@@ -6,7 +6,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-green.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red.svg)
 
-An interactive web application that leverages **deep learning** and **real-time weather APIs** to help farmers, researchers, and agricultural enthusiasts identify plant diseases and access weather forecasts for informed crop management decisions.
+An interactive web application that leverages **deep learning** and **real-time weather APIs** to help farmers, researchers, and agricultural enthusiasts identify plant diseases and access weather forecasts for informed crop management decisions. To view the application [click here](https://plant-disease-by-max.streamlit.app/).
 
 ---
 
