@@ -128,7 +128,7 @@ elif app_mode == "Weather Forecast":
     # Get weather forecast for one week
     def get_weather_forecast(city):
         # OpenWeatherMap API key
-        API_KEY = "b834d100667d85b9dc5c25d3d4f49894"
+        API_KEY = "104092d8e7a83f5076545f19eb12e118"
         base_url = "http://api.openweathermap.org/data/2.5/forecast"
         params = {
             "q": city,
@@ -181,3 +181,4 @@ elif app_mode == "Weather Forecast":
                     st.table(details_df)
         except:
             st.error("Unable to fetch the data!")
+
