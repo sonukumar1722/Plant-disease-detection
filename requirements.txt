@@ -9,4 +9,5 @@ ml-dtypes>=0.2.0
 numpy
 pandas
 requests
+bycrypt
 
