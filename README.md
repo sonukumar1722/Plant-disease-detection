@@ -69,7 +69,7 @@ An interactive web application that leverages **deep learning** and **real-time 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/sonukumar1722/plant-disease-recognition.git
+   git clone https://github.com/sonukumar1722/Plant-disease-detection.git
    cd plant-disease-recognition
    ```
 
