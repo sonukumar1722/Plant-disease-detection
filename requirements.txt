@@ -2,7 +2,6 @@ streamlit
 streamlit_back_camera_input                            
 streamlit_webrtc
 opencv-python                             
-mediapipe
 jupyterlab
 tensorflow==2.15.0
 ml-dtypes>=0.2.0
@@ -10,5 +9,6 @@ numpy
 pandas
 requests
 bcrypt
+
 
 
