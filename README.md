@@ -57,7 +57,7 @@ An interactive web application that leverages **deep learning** and **real-time 
 
 ## 📂 Dataset
 
-* **Source:** [Keras / TensorFlow Datasets – PlantVillage](https://www.tensorflow.org/datasets/catalog/plant_village)
+* **Source:** [Keras / TensorFlow Datasets – PlantVillage](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset?resource=download)
 * **Description:** \~87K RGB images of healthy and diseased crop leaves.
 * **Classes:** 38 categories including apple, corn, grape, potato, soybean, tomato, and more.
 * **Split:** 80% training, 20% validation, with an additional test set for evaluation.
