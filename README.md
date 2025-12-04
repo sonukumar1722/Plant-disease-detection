@@ -6,7 +6,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-green.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red.svg)
 
-An interactive web application that leverages **deep learning** and **real-time weather APIs** to help farmers, researchers, and agricultural enthusiasts identify plant diseases and access weather forecasts for informed crop management decisions. To view the application [click here](https://mainpy-gefsrkrku64xxba2qxy2wy.streamlit.app/).
+An interactive web application that leverages **deep learning** and **real-time weather APIs** to help farmers, researchers, and agricultural enthusiasts identify plant diseases and access weather forecasts for informed crop management decisions. To view the application [click here]([https://mainpy-gefsrkrku64xxba2qxy2wy.streamlit.app/](https://plant-disease-detection-0.streamlit.app/)).
 
 ---
 
