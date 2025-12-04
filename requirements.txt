@@ -1,14 +1,14 @@
-streamlit 
+streamlit>=1.52.0 
 streamlit_back_camera_input                            
-streamlit_webrtc
+streamlit_webrtc>=0.64.5
 opencv-python                             
 jupyterlab
-tensorflow==2.15.0
+tensorflow>=2.20.0
 ml-dtypes>=0.2.0
-numpy
-pandas
-requests
+numpy>=2.3.5
+pandas>=2.3.3
+pillow>=12.0.0
+requests>=2.32.5
 bcrypt
-
 
 
