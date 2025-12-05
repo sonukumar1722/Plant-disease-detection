@@ -628,25 +628,9 @@ if app_mode == "Disease Prediction":
         col1, col2 = st.columns([3, 1])
         with col2:
             if 'camera_facing' not in st.session_state:
-                st.session_state.camera_facing = "Front"
-            
-            front_btn = st.button("📱 Front Camera", use_container_width=True, 
-                                   type="primary" if st.session_state.camera_facing == "Front" else "secondary")
-            back_btn = st.button("📷 Back Camera", use_container_width=True,
-                                  type="primary" if st.session_state.camera_facing == "Back" else "secondary")
-            
-            if front_btn:
-                st.session_state.camera_facing = "Front"
-                st.rerun()
-            if back_btn:
-                st.session_state.camera_facing = "Back"
-                st.rerun()
-        
+                st.session_state.camera_facing = "Front"        
         with col1:
-            st.info(f"📸 **Camera Mode** - Position the plant leaf clearly in the frame and click capture.")
-            st.caption("Tip: On mobile devices, you can use your browser's camera switcher if available. The camera selection buttons help track your preference.")
-        
-        camera_key = f"camera_input_{st.session_state.camera_facing.lower()}"
+                   camera_key = f"camera_input_{st.session_state.camera_facing.lower()}"
         
         camera_image = st.camera_input(
             "Click the button below to capture an image",
@@ -942,3 +926,4 @@ elif app_mode == "Home & About":
             plant = plant.replace("_", " ")
             condition = condition.replace("_", " ")
             st.write(f"{i}. **{plant}** - {condition}")
+
